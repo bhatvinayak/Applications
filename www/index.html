@@ -1,0 +1,99 @@
+<html>
+
+    <head>
+        <title>Calculator</title>
+        
+         <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        
+         <style>
+            button
+            {
+              
+                width: 100%;
+                height: 100%;
+                font-size: 30;
+                background-color: azure;
+                font-family: cursive;
+                border-radius: 5px;
+                border-style: dotted;
+            }
+             
+             table
+             {
+                 width: 100%;
+                 height: 100%;
+                 
+                 border-collapse: collapse;
+                
+                 
+             }
+             
+             td
+             {
+                 font-size: 35;
+                 background-color:cadetblue;
+                 font-family: cursive;
+                 color: white;
+                 width: 100;
+             }
+             
+             
+             
+             #op
+             {
+                 background-color:burlywood;
+                 
+                 
+             }
+             
+        </style>
+        
+    </head>
+    <body>
+        
+       
+        
+        <table   >
+            <tr >
+                <td id="id1" colspan="4" style="max-width: 100; word-wrap: break-word;">0</td>
+            </tr>
+            
+            <tr >
+                <td colspan="2"><button onclick="abc(this)" >AC</button></td>
+                <td><button onclick="erase()">DEL</button></td>
+                <td><button id="op" onclick="abc(this)">/</button ></td>
+            </tr>
+            
+            <tr>
+                <td><button onclick="abc(this)" >7</button></td>
+                 <td><button onclick="abc(this)">8</button></td>
+                 <td><button onclick="abc(this)">9</button></td>
+                 <td><button id="op" onclick="abc(this)">*</button></td>
+            </tr>
+            
+             <tr >
+                <td><button  onclick="abc(this)">4</button></td>
+                 <td><button  onclick="abc(this)">5</button></td>
+                 <td><button onclick="abc(this)" >6</button></td>
+                 <td><button id="op" onclick="abc(this)">-</button></td>
+            </tr>
+            
+             <tr >
+                <td><button  onclick="abc(this)">1</button></td>
+                 <td><button onclick="abc(this)" >2</button></td>
+                 <td><button  onclick="abc(this)">3</button></td>
+                 <td><button id="op" onclick="abc(this)">+</button></td>
+            </tr>
+            
+            <tr >
+                <td colspan="2"><button  onclick="abc(this)">0</button></td>
+                 <td><button onclick="abc(this)">.</button></td>
+                 <td><button id="op" onclick="abc(this)">=</button></td>
+                 
+            </tr>
+        </table>
+        
+        <script type="text/javascript" src="js/index.js"></script>
+        
+    </body>
+</html>
